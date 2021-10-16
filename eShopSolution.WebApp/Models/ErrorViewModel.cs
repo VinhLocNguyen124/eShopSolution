@@ -6,7 +6,6 @@ namespace eShopSolution.WebApp.Models
     {
         public string RequestId { get; set; }
         public int MyProperty { get; set; }
-        //Hello CC
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
