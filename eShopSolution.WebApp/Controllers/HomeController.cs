@@ -11,6 +11,7 @@ namespace eShopSolution.WebApp.Controllers
 {
     public class HomeController : Controller
     {
+        //Edit HomeController
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
